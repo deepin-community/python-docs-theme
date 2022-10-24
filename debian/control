@@ -1,0 +1,20 @@
+Source: python-docs-theme
+Section: python
+Priority: optional
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends:
+ debhelper (>= 9),
+ dh-python,
+ python3,
+ python3-setuptools,
+ python3-sphinx,
+Standards-Version: 4.4.0
+Homepage: https://github.com/python/python-docs-theme
+
+Package: python3-docs-theme
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: theme for the Python core documentation.
+ Theme used for the Python Core and Python packaging documentation.

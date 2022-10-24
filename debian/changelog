@@ -1,0 +1,11 @@
+python-docs-theme (2018.2-2) unstable; urgency=medium
+
+  * Bump standards version.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 08 Jul 2019 10:15:36 +0200
+
+python-docs-theme (2018.2-1) unstable; urgency=low
+
+  * Initial release. Closes: #921515.
+
+ -- Matthias Klose <doko@debian.org>  Wed, 06 Feb 2019 13:21:02 +0100
